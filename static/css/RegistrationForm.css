@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+.Backbtn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: #fff;
+    outline: none;
+    border: none;
+    list-style: none;
+}
+.Backbtn a{
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+}
+.column-left{
+    width: 50%;
+    background-color: #FAC32D;
+    height: 100vh;
+    display: flex;
+}
+.column-left img{
+    
+    position: absolute;
+    width: 550px;
+    height: 450px;
+    top: 202px;
+    left: 130px;
+}
+.column-left h1{
+    font-weight: bold;
+    color: #fff;
+    transform: translate(40%, 20%);
+    text-align: left;
+    font-size: 46px;
+    font-family: "Poppins", sans-serif;
+}
+.column_right{
+    transform: translate(100%, -100%);
+    width: 50%;
+    height: 100vh;
+}
+.column_right h1{
+    color: #F45632;
+    font-family: "Poppins", sans-serif;
+    transform: translate(20%);
+    margin-top: 4rem;
+}
+.InputForm{
+    height: 15vh;
+    display: block;
+    transform: translate(50% 150%);
+}
+.NameInput{
+    transform: translate(20%);
+    margin-top: 3rem;
+}
+.NameInput h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #696F79;
+}
+.NameInput input{
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    padding: 1rem 1rem;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    border: 0.5px solid #FAC32D;
+    outline: none;
+    background: transparent;
+}
+
+.EmailInput{
+    transform: translate(20%);
+    margin-top: 3rem;
+}
+.EmailInput h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #696F79;
+}
+.EmailInput input{
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    padding: 1rem 1rem;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    border: 0.5px solid #FAC32D;
+    outline: none;
+    background: transparent; 
+}
+.PasswordInput{
+    transform: translate(20%);
+    margin-top: 3rem;
+}
+.PasswordInput h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #696F79;
+}
+.PasswordInput input{
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    padding: 1rem 1rem;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    border: 0.5px solid #FAC32D;
+    outline: none;
+    background: transparent;
+}
+.checkbox{
+    transform: translate(20%);
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.InputForm Label{
+    padding: 1rem;
+}
+.button{
+    position: absolute;
+    top: 500px;
+    left: 140px;
+    transform: translate(30% 50%);
+    width: 340px;
+    background-color: #272D2F;
+    border: none;
+    border-radius: 15px;
+    padding: 1rem;
+    cursor: pointer;
+    padding: 0 6rem;
+    outline: none;
+    border: none;
+    height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.button:hover{
+    background-color: #696F79;
+}
