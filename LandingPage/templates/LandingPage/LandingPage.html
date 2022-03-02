@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter+Brush&family=Poppins:wght@100;200;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter+Brush&family=DM+Sans:wght@700&family=Poppins:wght@100;200;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter+Brush&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="LandingPage.css"> -->
+
+    <link rel="stylesheet" href="{% static 'css/LandingPage.css' %}">
 </head>
 <body>
     <section id=LandingPage>
@@ -25,7 +27,9 @@
                 <li class=content><a href="#Howit">How it works</a></li>
                 <li class=content><a href="/">Services</a></li>
                 <li class=content><a href="#footer">Contact</a></li>
-                <button class=button>Join now</button>
+                <a href="{% url 'register'%}">
+                    <button class=button>Join now</button>
+                </a>
             </ul>  
         </div>
         <div class="heroSection">
